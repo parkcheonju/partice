@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap study</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <h1>TextAndColor</h1>
+    <hr>
+    <h2>텍스트 정렬과 색상</h2>
+    <p class="text-start">text-start 왼쪽 정렬Lorem ipsum dolor</p>
+    <p class="text-center">text-center 중앙 정렬Lorem ipsum dolor</p>
+    <p class="text-end">text-end 오른쪽 정렬Lorem ipsum dolor</p>
+    <hr />
+
+    <h2>텍스트 변형</h2>
+    <p class="text-start text-uppercase">.text-start:왼쪽정렬 | .text-uppercase: 영문 대문자</p>
+    <p class="text-center text-lowercase">.text-center:가운데정렬 | .text-lowercase: 영문 소문자</p>
+    <p class="text-end text-capitalize">.text-end:오른쪽정렬 | .text-capitalize : 첫 글자만 대문자</p>
+
+    <hr />
+    <h2>텍스트 변형</h2>
+    <p class="text-start text-uppercase fw-bold">.text-start:왼쪽정렬 | .text-uppercase: 영문 대문자 | .fw-bold : font-weight - bold, normal, light</p>
+
+    <hr />
+    <!-- lg: > 992,  md: 768 -->
+    <p class="text-lg-start text-md-end fst-italic">
+      fst-italic : 이탤릭체 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sit, officiis facilis alias reiciendis doloremque consequatur ad tenetur optio, corrupti consectetur debitis dolor quas laboriosam incidunt nulla tempore eveniet totam?
+    </p>
+    <hr />
+    <h2 class="display-1">color</h2>
+    <div class="text-primary">.text-primary</div>
+    <div class="text-secondary">.text-secondary</div>
+    <div class="text-success">.text-success</div>
+    <div class="text-warning">.text-warning</div>
+    <div class="text-info">.text-info</div>
+    <div class="text-light">.text-light</div>
+    <div class="text-dark">.text-dark</div>
+    <div class="text-muted">.text-muted</div>
+    <div class="text-white">.white</div>
+    <div class="text-white bg-dark">.white bg-dark 백그라운드 컬러 검정색</div>
+    <div class="text-white bg-primary">.white bg-primary 백그라운드 컬러 주조색</div>
+    <div class="text-primary shadow-sm p-3 mb-5 bg-body-tertiary rounded">.text-primary</div>
+    <hr>
+    <div class="bg-primary text-light mb-2">Lorem ipsum dolor sit</div>
+    <div class="bg-info text-light ">Lorem ipsum dolor sit</div>
+    <div class="bg-info text-light mt-4">Lorem ipsum dolor sit</div>
+
+    <hr>
+
+    <h2 class="h1">spacing And size</h2>
+
+    <hr>
+
+    <div class="bg-warning p-3 ps-5 p-sm-1 p-md-4 p-xl-5">
+      bg-warning:배경색 <br>
+      p-3 : 미디어 쿼리 없이 padding 3번크기 (1rem)<br> 
+      ps-5 : 미디어 쿼리없이 padding-start(left) 5번크기 (3rem)<br>
+      p-sm-1: 화면 너비 576px 이하일때 1(0.25rem)번 크기 패딩쓰겠다<br>
+      p-md-4: 화면 너비 768px 이하일 경우 4(1.5rem)번 크기 패딩 쓰겠다<br>
+      p-xl-5: 화면 너비 12000px 이하일때 5(3rem)번크기 패딩
+    </div>
+    <hr>
+    <div class="bg-warning p-3 ps-5 p-sm-1 p-md-4 p-xl-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus earum est error alias</div>
+    <hr>
+    <div class="bg-secondary" style="width: 500px; height:800px;">
+      <div class="bg-primary text-light p-3 w-25 h-100">Lorem ipsum dolor sit amet consectetur, </div>
+      <div class="bg-danger text-light p-3 w-50 m-auto">Lorem</div>
+      <div class="bg-success text-light p-3 w-75">lorem</div>
+      <div class="bg-warning text-light p-3 w-100">lorem</div>
+    </div>
+
+    <hr>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
